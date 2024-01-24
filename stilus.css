@@ -1,0 +1,23 @@
+/* Minden beviteli mezőre érvényes */
+
+input{
+    margin: 5px;
+}
+
+fieldset{
+    width: 300px;
+}
+
+/* Csak az adott részre érvényes*/
+input[type=submit]{
+    background-color: beige;
+    border-color: beige;
+}
+
+input[type=text]:focus{
+    background-color: burlywood;
+}
+
+#kuldes{
+    text-align: center;
+}
